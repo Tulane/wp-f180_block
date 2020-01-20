@@ -1,0 +1,56 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cgb-block-wp-f180  {
+  display: block;
+
+  // Elements
+  img{}
+  form, .components-base-control, .limited_width{
+    input{
+      max-width: 220px;
+    }
+  }
+  label{
+    font-weight: bold;
+  }
+  ul{}
+  ol{}
+  p{}
+
+  // Classes
+  .inferfolio-preloader{
+    background: #f3f3f4;
+    padding: 4rem;
+    text-align: center;;
+    .preloader-logo{
+      max-width: 300px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 2em;
+    }
+    .preloader-form{
+      max-width: 220px;
+      margin: 2rem auto 0 auto;
+    }
+    .preloader-user_info{
+      max-width: 220px;
+      margin: 2rem auto 0 auto;
+      .user_info-loader{}
+    }
+    .preloader-error{
+      color: red;
+      font-weight: bold;
+    }
+  }
+  .inferfolio-section_data{
+    ul.section_data-body{
+      padding-left: 2em;
+    }
+  }
+
+}
